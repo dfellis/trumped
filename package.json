@@ -1,0 +1,31 @@
+{
+  "name": "trumped",
+  "version": "1.0.0",
+  "description": "Succeed in the face of overwhelming failure!",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dfellis/trumped.git"
+  },
+  "keywords": [
+    "trumped",
+    "try-catch",
+    "on-error-resume-next",
+    "troll"
+  ],
+  "author": "David Ellis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfellis/trumped/issues"
+  },
+  "homepage": "https://github.com/dfellis/trumped#readme",
+  "devDependencies": {
+    "nodeunit": "^0.10.2"
+  },
+  "dependencies": {
+    "lambda-js": "^0.1.5"
+  }
+}
